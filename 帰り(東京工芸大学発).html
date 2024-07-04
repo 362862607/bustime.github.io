@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" class="html1">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>帰り(東京工芸大学発)</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
     <div>
-        <h1>帰り(東京工芸大学発)</h1>
-        <p>知りたい時間を選んでください</p>
-
+        <h1 class="h02">帰り(東京工芸大学発)</h1>
+        <p class="p01">知りたい時間を選んでください</p>
+        <div class="div2">
         <span><input type="button" value="6時" onclick="kaeri(6)"></span>
         <span><input type="button" value="7時" onclick="kaeri(7)"></span>
         <span><input type="button" value="8時" onclick="kaeri(8)"></span><br>
@@ -27,9 +30,11 @@
         <span><input type="button" value="20時" onclick="kaeri(20)"></span><br>
         <span><input type="button" value="21時" onclick="kaeri(21)"></span>
         <span><input type="button" value="22時" onclick="kaeri(22)"></span>
+        <a href="./バスの予定時刻表.html"><input type="button" id="id1" value="戻る"></a>
         <div id="busjikan"></div>
     </div>
-
     <script src="./js/帰り(東京工芸大学発).js"></script>
+
 </body>
+
 </html>
