@@ -40,25 +40,24 @@
 }
 
 @media (max-width: 768px) {/*スマートフォン*/
-    .h01,
-    .h02 {
-        margin: 150px auto 0;
-        font-size: 43px;
-    }
-
-    .div1>p>a>input {
-        margin-top: 50px;
-        font-size: 30px;
+    .h01,.h02 {
+        margin: 80px auto 0;
+        font-size: 27px;
     }
 
     .p01 {
-        font-size: 25px;
+        font-size: 20px;
         margin-left: 7%;
     }
 
+    .div1>p>a>input {
+        margin-top: 25px;
+        font-size: 20px;
+    }
+
     .div2>span>input {
-        margin: 7px;
-        font-size: 25px;
+        margin: 5px;
+        font-size: 18px;
 
     }
 
@@ -66,7 +65,7 @@
         border-radius: 15px;
         right: 8%;
         position: fixed;
-        font-size: 25px;
+        font-size: 18px;
     }
 
 }
